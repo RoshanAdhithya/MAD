@@ -25,6 +25,8 @@ import com.google.android.gms.location.LocationResult;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
+//add this to dependency in build.gradle(module)
+// implementation 'com.google.android.gms:play-services-location:21.0.1'
 
 import android.os.Bundle;
 

@@ -17,7 +17,7 @@ public class AlarmReceiver extends BroadcastReceiver {
 
     @Override
     public void onReceive(Context context, Intent intent) {
-        mp=MediaPlayer.create(context, R.raw.mallipoo);
+        mp=MediaPlayer.create(context, R.raw.mallipoo); // change different ringtone or music OR (use Settings.System.DEFAULT_RINGTONE_URI)
         mp.start();
         Toast.makeText(context, "Alarm is Ringing Now", Toast.LENGTH_LONG).show();
     }
